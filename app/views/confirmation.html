@@ -1,0 +1,65 @@
+{% extends "layouts/main.html" %}
+{% block pageTitle %}
+Space Travel Service
+{% endblock %}
+
+{% block content %}
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+
+    <h1 class="govuk-heading-xl">
+      Space Travel Service
+    </h1>
+
+
+  <div class="govuk-form-group">
+
+      <h1 class="govuk-heading-l">Please check your details</h1>
+<h2 
+      <p class="govuk-body">
+<p class="govuk-body">Please check your details below</p>
+    </p>
+    <dl class="govuk-summary-list">
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      Destination
+    </dt>
+    <dd class="govuk-summary-list__value">
+      Mars
+    </dd>
+    <dd class="govuk-summary-list__actions">
+      <a class="govuk-link" href="index.html">Change<span class="govuk-visually-hidden"> name</span></a>
+    </dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      Personal details
+    </dt>
+    <dd class="govuk-summary-list__value">
+      Sarah Phillips
+      <span class="govuk-summary-list__value">
+     72 Guild Street<br>London<br>SE23 6FH 
+     <span class="govuk-summary-list__value">
+        sarah.phillips@example.com
+     </span>
+    </dd>
+    <dd class="govuk-summary-list__actions">
+      <a class="govuk-link" href="form.html">Change<span class="govuk-visually-hidden"> address</span></a>
+    </dd>
+  </div>
+  
+</dl>
+   
+    
+    
+    </div>
+ 
+
+<a href="alldone.html" role="button" class="govuk-button">
+  Confirm
+</a>
+  </div>
+</div>
+
+{% endblock %}
